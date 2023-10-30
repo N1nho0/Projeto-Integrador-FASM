@@ -2,5 +2,8 @@
     background-color: #CBE167;
 }
 #logo{
-    width: 40%;
+    width: 55px;
+}
+.nav-item{
+    font-size: 18px;
 }
