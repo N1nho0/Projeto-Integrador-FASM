@@ -1,0 +1,162 @@
+<!doctype html>
+<!-- início do documento html -->
+<html lang="pt-br">
+    <!-- início do cabeçalho -->
+    <head>
+        <!-- define a codificação de caracteres da página -->
+        <meta charset="utf-8">
+        <!-- define comportamento da página em dispositivo móvel -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- título da página -->
+        <title>Empório Virtual</title>
+        <!-- inclusão do css do projeto Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- inclusão do arquivo javascript -->
+        <script src="exemplo9.js"></script>
+    </head>
+    <!-- fim do cabeçalho -->
+    <!-- início do corpo da página -->
+    <body>
+        <!-- divisão horizontal recuada à esquerda, ao topo e à direita -->
+        <div class="container mt-5">
+            <!-- divisão horizontal com conteúdo centralizado -->
+            <div class="text-center mt-4 mb-4">
+                <h2>Empório Virtual</h2>
+            </div>
+            <!-- divisão horizontal contendo uma linha e 3 produtos -->
+            <div class="row">
+                <!-- adiciona primeira coluna -->
+                <div class="col-md-4 mb-4">
+                    <!-- card do produto -->
+                    <div class="card">
+                        <img src="img/arroz.webp" class="card-img-top" alt="Arroz 7 Grãos">
+                        <div class="card-body produto" data-nome="Arroz 7 Grãos" data-preco="19.99">
+                            <h5 class="card-title">Arroz 7 Grãos</h5>
+                            <p class="card-text">Preço: R$ 19,90</p>
+                            <div class="row">
+                                <div class="col-8">
+                                    <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-outline-success btn-adicionar">Adicionar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- adiciona a segunda coluna -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/cafe.webp" class="card-img-top" alt="Café">
+                        <div class="card-body produto" data-nome="Café" data-preco="22.90">
+                            <h5 class="card-title">Café</h5>
+                            <p class="card-text">Preço: R$ 22,90</p>
+                            <div class="row">
+                                <div class="col-8">
+                                    <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-outline-success btn-adicionar">Adicionar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- adiciona a terceira coluna -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/castanhas.webp" class="card-img-top" alt="Castanhas">
+                        <div class="card-body produto" data-nome="Castanhas" data-preco="18.90">
+                            <h5 class="card-title">Castanhas</h5>
+                            <p class="card-text">Preço: R$ 18,90</p>
+                            <div class="row">
+                                <div class="col-8">
+                                    <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-outline-success btn-adicionar">Adicionar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- divisão horizontal contendo uma linha e 3 produtos -->
+            <div class="row">
+                <!-- adiciona primeira coluna -->
+                <div class="col-md-4 mb-4">
+                    <!-- card do produto -->
+                    <div class="card">
+                        <img src="img/geleia-de-amora.webp" class="card-img-top" alt="Geléia de Amora">
+                        <div class="card-body produto" data-nome="Geléia de Amora" data-preco="17.49">
+                            <h5 class="card-title">Geléia de Amora</h5>
+                            <p class="card-text">Preço: R$ 17,40</p>
+                            <div class="row">
+                                <div class="col-8">
+                                    <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-outline-success btn-adicionar">Adicionar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- adiciona a segunda coluna -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/queijo-defumado.webp" class="card-img-top" alt="Queijo Defumado">
+                        <div class="card-body produto" data-nome="Queijo Defumado" data-preco="29.90">
+                            <h5 class="card-title">Queijo Defumado</h5>
+                            <p class="card-text">Preço: R$ 29,90</p>
+                            <div class="row">
+                                <div class="col-8">
+                                    <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-outline-success btn-adicionar">Adicionar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- adiciona a terceira coluna -->
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="img/salame.webp" class="card-img-top" alt="Salame">
+                        <div class="card-body produto" data-nome="Salame" data-preco="34.90">
+                            <h5 class="card-title">Salame</h5>
+                            <p class="card-text">Preço: R$ 34,90</p>
+                            <div class="row">
+                                <div class="col-8">
+                                    <input type="number" class="form-control quantidade" placeholder="Quantidade">
+                                </div>
+                                <div class="col-4">
+                                    <button class="btn btn-outline-success btn-adicionar">Adicionar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- carrinho de compras -->
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Carrinho de Compras</h5>
+                            <p id="carrinho">Adicione um item</p>
+                            <p id="total" class="fw-bold">R$ 0,00</p>
+                            <!-- finalizar compra -->
+                            <button class="btn btn-sm btn-success" id="btn-finalizar" style="display: none">
+                                Finalizar
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+    <!-- fim do corpo da página -->
+</html>
+<!-- fim do documento html -->
