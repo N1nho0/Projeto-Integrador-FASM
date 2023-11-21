@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <script src="adote.js"></script>
     <title>Amicão - Doe</title>
   </head>
   <body>
+    <!-- Barra de navegação-->
     <nav id="nav-color" class="navbar navbar-expand-lg">
-      <div class="container-fluid">
-        <a class="navbar-brand"><img id="logo" src="img/logo.png" alt="Logo Amicão"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt="Logo Amicão"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
@@ -22,61 +25,46 @@
             <li class="nav-item">
               <a class="nav-link active" href="adote.html">Adoção</a>
             </li>
-            </li>
             <li class="nav-item">
               <a class="nav-link active" href="doe.html">Doações</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="sobre.html">Sobre nós</a>
+              <a class="nav-link active" href="https://www.instagram.com/amicaomuriae/">Instagram</a>
             </li>
-          </ul>
+          </ul>         
         </div>
-      </div>
-    </nav>
+    </div>
+  </nav>
     <!-- blocos -->
     <div class="container">
         <h1 class="text-center mt-4 mb-4" id="Titulo">
-            Adote um animal
+            Adote um animal!
         </h1>
     </div>
     <div class="container text-center">
       <div class="row">
-        <div class="col">
-          <!-- indica a existencia de um card na primeira coluna-->
-          <div class="card" style="width: 75%;">
-            <img src="img/cachorro.png" class="card-img-top" alt="...">
+        <div class="col-lg-6 col-md-12 mb-4">
+          <div class="card">
+            <img src="img/cachorro.png" class="card-img-top" alt="..." height=100% >
               <div class="card-body" id="colu">
-                <h5 class="card-title" id="titulo_card">
-                  Adote um cachorro</h5>
+                <h5 class="card-title" id="titulo_adote">
+                  ADOTE UM CACHORRO</h5>
                 <p class="card-text">O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos, subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. </p>
-                <a href="#" class="btn btn-primary"id="botao">Adotar</a>
+                <a href="https://wa.me/55329882062?text=Olá gostaria de adotar um cachorro" class="btn btn-primary"id="botao">Adotar</a>
               </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card" style="width: 75%;">
+        <div class="col-lg-6 col-md-12  mb-4">
+          <div class="card">
             <img src="img/gato.png" class="card-img-top" alt="...">
               <div class="card-body" id="colu">
-                <h5 class="card-title" id="titulo_card">Adote um gato</h5>
+                <h5 class="card-title" id="titulo_adote">ADOTE UM GATO</h5>
                 <p class="card-text">O gato ou gato doméstico é um mamífero carnívoro da família dos felídeos, muito popular como animal de estimação. Ocupando o topo da cadeia alimentar, é predador natural de diversos animais.</p>
-                <a href="#" class="btn btn-primary"id="botao">Adotar</a>
-              </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card" style="width: 75%;">
-            <img src="img/cachorro_caramelo.png" class="card-img-top" alt="...">
-              <div class="card-body" id="colu">
-                <h5 class="card-title" id="titulo_card">Adote um cachorro caramelo</h5>
-                <p class="card-text">O cão caramelo, no Brasil também chamado de lendas, é um onívoro da família dos canídeos, subespécie de vira latas, e talvez o animal que mais tem nas ruas.</p>
-                <a href="#" class="btn btn-primary" id="botao">Adotar</a>
+                <a href="https://wa.me/55329882062?text=Olá gostaria de adotar um gato" class="btn btn-primary"id="botao">Adotar</a>
               </div>
           </div>
         </div>
       </div>
     </div>
-    <footer id="footer-color" class="text-center py-3 fixed-bottom">
-      <p class="mb-0">&copy; 2023 FASM News. Todos os direitos reservados.</p>
-  </footer>
 </body>
 </html>

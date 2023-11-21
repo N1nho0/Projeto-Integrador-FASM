@@ -1,11 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Reenie+Beanie&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=League+Spartan&display=swap');
 #nav-color{
     background-color: #CBE167;
 }
-#footer-color{
-    background-color: #CBE167;
-}
 #logo{
-    width: 50px;
+    width: 55px;
 }
 .nav-item{
     font-size: 18px;
@@ -29,10 +32,74 @@ body{
 }
 .card {
 
-    border: 2px solid #062E07 !important;
+    border: 2px solid #000000 !important;
 
 }
 .card-body{
     background-color:   #CBE167;
 
+}
+#botao{
+    background-color: #E6FBB6 !important; 
+    color: #000000 !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+    font-family: 'Luckiest Guy', cursive;
+}
+button{
+    background-color: #E6FBB6 !important; 
+    color: #000000 !important;
+    border-radius: 10px !important;
+    cursor: pointer !important;
+    font-family: 'Luckiest Guy', cursive !important;
+    font-size: 16px !important;
+
+}
+.nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+#Titulo{
+    font-family: 'Pacifico', cursive;
+}
+#titulo_adote{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 32px;
+}
+p{
+    font-family: 'Macondo', cursive;
+    font-size: 18px;
+}
+h5{
+    font-family: 'Pacifico', cursive;
+}
+#qrcode>img {
+    margin: 0 auto;
+}
+#text_inicio{
+    font-family: Chewy;
+    font-size: 80px;
+    margin-left: -900px ;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+#subtext_inicio{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 32px;
+    margin-left: -900px ;
+    text-shadow: 0.1em 0.1em 0.2em black
+}
+@media only screen and (max-width: 600px) {
+  #subtext_inicio{
+    font-family: 'League Spartan', sans-serif;
+    font-size: 16px;
+    margin-left: -230px ;
+    text-shadow: 0.1em 0.1em 0.2em black
+    }
+    #text_inicio{
+        font-family: Chewy;
+        font-size: 40px;
+        margin-left: -230px ;
+        margin-top: -50px;
+        text-shadow: 0.1em 0.1em 0.2em black
+    }
 }

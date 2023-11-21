@@ -5,37 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <title>Amicão - Doe</title>
     <script src="montapix.js"></script>
     <script src="qrcode.min.js"></script>
     <script src="doe.js"></script>
 </head>
 <body>
+    <!-- Barra de navegação-->
     <nav id="nav-color" class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-          <a class="navbar-brand"><img id="logo" src="img/logo.png" alt="Logo Amicão"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="adote.html">Adoção</a>
-              </li>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="doe.html">Doações</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="sobre.html">Sobre nós</a>
-              </li>
-            </ul>
-          </div>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img id="logo" src="img/logo.png" alt="Logo Amicão"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="adote.html">Adoção</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="doe.html">Doações</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="https://www.instagram.com/amicaomuriae/">Instagram</a>
+            </li>
+          </ul>         
         </div>
-      </nav>
+    </div>
+  </nav>
     <div class="container mt-5">
         <div class="row">
                     <div class="col-md-4 mb-4">
@@ -83,7 +84,7 @@
                             <p class="card-text">Preço: R$ 1,00</p>
                             <div class="row">
                                 <div class="col-8">
-                                    <input type="number" class="form-control quantidade" placeholder="Valor">
+                                    <input type="number" class="form-control quantidade" placeholder="Quantidade">
                                 </div>
                                 <div class="col-4">
                                     <button class="btn btn-outline-success btn-adicionar">Adicionar</button>
@@ -92,25 +93,26 @@
                         </div>
                     </div>
                 </div>
+            </div>
             <div class="row">
                 <div class="col mb-4">
                     <div class="card">
-                        <div class="card-body">
+                        <div class="card-body text-center">
                             <h5 class="card-title">Carrinho de Compras</h5>
                             <p id="carrinho">Adicione um item</p>
                             <p id="total" class="fw-bold">R$ 0,00</p>
                             <!-- finalizar compra -->
-                            <button class="btn btn-sm btn-success" id="btn-finalizar" style="display: none">
+                            <button class="btn btn-sm btn-success mx-auto" id="btn-finalizar" style="display: none">
                                 Finalizar
                             </button>
-                            <div id="qrcode" class="text-center mt-3"></div>
+                            <div id="qrcode" class="text-center mt-3 mx-auto"></div>
                         </div>
                     </div>
+                    </div>
                 </div>
-            </div>
+            
+        </div>
         </div>
     </div>
-    <footer id="footer-color" class="text-center py-3 fixed-bottom">
-        <p class="mb-0">&copy; 2023 FASM News. Todos os direitos reservados.</p>
-    </footer>
+
 </body>
