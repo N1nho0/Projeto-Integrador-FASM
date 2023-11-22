@@ -111,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
         // cria um objeto da classe Pix disponível no arquivo montapix.js
         let px = new Pix(
-            'ajudapetmuriae@gmail.com', 'Doe para esse pobre', 'Vinicius S Monteiro', 'MURIAE', '***', total
+            'ajudapetmuriae@gmail.com', 'Contribuicao atraves do website', 'AMICAO MURIAE', 'MURIAE', '***', total
         );
 
         // cria um qrcode com base na string do pix copia e cola
